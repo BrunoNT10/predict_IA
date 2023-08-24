@@ -18,7 +18,7 @@ anos = list(set(list(df.data.apply(parse_year))))
 
 times = list(set(list(df['mandante'])))
 
-
+#dddd
 # for i, row in df.iterrows():
     
 # for i, row in df.iterrows():
