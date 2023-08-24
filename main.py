@@ -17,6 +17,7 @@ df = pd.read_csv(csv_path)
 anos = list(set(list(df.data.apply(parse_year))))
 
 times = list(set(list(df['mandante'])))
+#vfdvss
 
 
 print(anos)
@@ -31,4 +32,4 @@ print(times)
     
 #     else:
 #         print(f"{row.mandante} x {row.visitante} - empate")
-    
+
