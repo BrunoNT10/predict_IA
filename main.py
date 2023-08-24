@@ -18,6 +18,8 @@ anos = list(set(list(df.data.apply(parse_year))))
 
 times = list(set(list(df['mandante'])))
 
+print(anos)
+print(times)
 
 # for i, row in df.iterrows():
     
