@@ -46,3 +46,4 @@ for ano in anos:
         
 
 df.to_csv("updated_pontuation.csv")
+
